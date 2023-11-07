@@ -13,6 +13,11 @@ class ComposerStaticInit297a9700edd29fc736a15ebffed989af
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WPContributors\\Admin\\' => 21,
+            'WPContributors\\' => 15,
+        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -26,6 +31,14 @@ class ComposerStaticInit297a9700edd29fc736a15ebffed989af
     );
 
     public static $prefixDirsPsr4 = array (
+        'WPContributors\\Admin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/admin',
+        ),
+        'WPContributors\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/includes',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
